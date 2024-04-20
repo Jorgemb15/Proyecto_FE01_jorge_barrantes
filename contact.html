@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CBJConsultores</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="site-title"><span>CBJConsultores</span></h1>
+    </header>
+
+    <section class="nav-container">
+      <nav class="nav-content default-container">
+        <a href="index.html">Inicio</a>
+        <a href="us.html">Nosotros</a>
+        <a href="store.html">Tienda</a>
+        <a href="galery.html">Galería</a>
+        <a class="nav-active" href="contact.html">Contacto</a>
+      </nav>
+    </section>
+    <!-- End nav-container -->
+
+    <main class="default-container">
+      <h2 class="form-title text-center">Contacto</h2>
+
+      <form id="contact-form" class="form">
+        <fieldset>
+          <legend>Tus Datos</legend>
+
+          <div class="field">
+            <label for="name">Nombre: </label>
+            <input id="name" type="text" placeholder="Tu Nombre" required />
+          </div>
+
+          <div class="field">
+            <label for="subject">Asunto:</label>
+            <input id="subject" type="text" placeholder="Tu Asunto" required />
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Tu Email" />
+          </div>
+
+          <div class="field">
+            <label for="phone">Teléfono:</label>
+            <input id="phone" type="tel" placeholder="Tu Teléfono" />
+          </div>
+
+          <div class="field">
+            <label for="tel">Mensaje:</label>
+            <textarea rows="10" cols="20"></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Información Extra</legend>
+
+          <div class="field">
+            <label for="service">Servicio</label>
+            <select id="service">
+              <option value="">-- Seleccione --</option>
+              <option value="BDA">Base de Datos</option>
+              <option value="DEV">Desarrollo a la Medida</option>
+              <option value="OUT">Outsourcing</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <input class="btn" type="submit" value="Enviar Formulario" />
+      </form>
+    </main>
+
+    <footer class="footer-site">
+      <div class="footer-container default-container">
+        <div>
+          <h3><a href="index.html#service">Servicios</a></h3>
+
+          <nav class="footer-menu">
+            <a href="index.html#database-service">Base de Datos</a>
+            <a href="index.html#develoment">Desarrollos a la Medida</a>
+            <a href="index.html#outsourcing">Outsourcing</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3><a href="us.html">Sobre Nosotros</a></h3>
+          <nav class="footer-menu">
+            <a href="us.html#history">Nuestra Historia</a>
+            <a href="us.html#mision">Nuestra Misión</a>
+            <a href="us.html#vision">Nuestra Visión</a>
+            <a href="us.html#values">Nuestros Valores</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3><a href="contact.html">Contacto</a></h3>
+          <nav class="footer-menu">
+            <a href="contact.html#contact-form">Contacta con Nosotros</a>
+          </nav>
+        </div>
+      </div>
+
+      <p class="copyright">
+        Todos los derechos Reservados, <a href="index.html">CBJConsultores</a>
+      </p>
+    </footer>
+  </body>
+</html>
